@@ -13,6 +13,7 @@ import { ErrorComponent } from './error/error.component';
 // import { SecondComponent } from './datacommunication/second/second.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SampletestComponent } from './sampletest/sampletest.component';
+import { EmpComponent } from './emp/emp.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SampletestComponent } from './sampletest/sampletest.component';
     // ParentComponent,
     // ChildComponent,
     // SecondComponent,
-    SampletestComponent
+    SampletestComponent,
+    EmpComponent
   ],
   imports: [
     BrowserModule,
